@@ -8,7 +8,7 @@ require_once __DIR__ .'/Movie.php';
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Movies</title>
 </head>
 <body>
   <head>
@@ -16,17 +16,35 @@ require_once __DIR__ .'/Movie.php';
   </head>
 
   <main>
+    
     <h3>
       <?php echo $movie1->title; ?>
     </h3>
+    <p>
+      <?php 
+        echo $movie1->info;
+      ?>
+    </p>
+    
 
     <h3>
       <?php echo $movie2->title; ?>
     </h3>
+    <p>
+      <?php 
+        echo $movie2->info;
+      ?>
+    </p>
 
     <h3>
-      <?php echo $movie3->title; ?>
+      <?php echo $movie3->title; ?> 
     </h3>
+    <p>
+      <?php 
+        echo $movie3->info;
+      ?>
+    </p>
+
   </main>
   
 </body>
