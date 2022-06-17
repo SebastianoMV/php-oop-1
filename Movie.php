@@ -14,8 +14,6 @@ class Movie{
 
 $movie1 = new Movie("Le follie dell'imperatore","Mark Dindal");
 $movie2 = new Movie("Il signore degli anelli","Peter Jackson");
+$movie3 = new Movie("L'isola dei cani","Wes Anderson");
 
-
-var_dump($movie1);
-var_dump($movie2);
 ?>
