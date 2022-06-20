@@ -24,4 +24,5 @@ $movie1 = new Movie("Le follie dell'imperatore","Mark Dindal",2000);
 $movie2 = new Movie("Il signore degli anelli","Peter Jackson",2001);
 $movie3 = new Movie("L'isola dei cani","Wes Anderson",2018);
 
+
 ?>

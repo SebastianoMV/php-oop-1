@@ -1,5 +1,12 @@
 <?php
 require_once __DIR__ .'/Movie.php';
+
+$movies =[];
+
+$movies[]= $movie1;
+$movies[]= $movie2;
+$movies[]= $movie3;
+
 ?>
 
 <!DOCTYPE html>
@@ -17,35 +24,20 @@ require_once __DIR__ .'/Movie.php';
 
   <main>
     
+  <?php foreach($movies as $movie): ?>
     <h3>
-      <?php echo $movie1->title; ?>
+      <?php echo $movie->title; ?>
     </h3>
     <p>
       <?php 
-        echo $movie1->info;
+        echo $movie->info;
       ?>
     </p>
+  <?php endforeach ?>
     
 
-    <h3>
-      <?php echo $movie2->title; ?>
-    </h3>
-    <p>
-      <?php 
-        echo $movie2->info;
-      ?>
-    </p>
-
-    <h3>
-      <?php echo $movie3->title; ?> 
-    </h3>
-    <p>
-      <?php 
-        echo $movie3->info;
-      ?>
-    </p>
-
   </main>
+
   
 </body>
 </html>
